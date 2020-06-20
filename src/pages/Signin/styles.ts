@@ -13,7 +13,6 @@ export const Content = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-
   place-content: center;
 
   width: 100%;
@@ -49,10 +48,10 @@ export const Content = styled.div`
       background: #ff9000;
       height: 56px;
       border-radius: 10px;
+      width: 100%;
       border: 0;
       padding: 0 16px;
       color: #312e38;
-      width: 100%;
       font-weight: 500;
       margin-top: 16px;
       transition: background-color 0.2s;

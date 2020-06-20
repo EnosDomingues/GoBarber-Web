@@ -12,7 +12,7 @@ export const SignIn: React.FC = () => (
       <form>
         <h1>Faça seu logon</h1>
 
-        <input type="email" placeholder="E-mail" />
+        <input placeholder="E-mail" />
 
         <input type="password" placeholder="Senha" />
 
@@ -26,6 +26,7 @@ export const SignIn: React.FC = () => (
         Criar conta
       </a>
     </Content>
+
     <Background />
   </Container>
 );
