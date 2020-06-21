@@ -28,6 +28,8 @@
     "prettier/prettier": "error",
     "react/jsx-props-no-spreading": "off",
     "import/no-unresolved": "off",
+    "@typescript-eslint/ban-types": "off",
+    "no-unused-expressions": "off",
     "react/prop-types": "off",
     "react-hooks/rules-of-hooks": "error",
     "react/jsx-one-expression-per-line": "off",
