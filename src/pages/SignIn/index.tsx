@@ -9,7 +9,7 @@ import { Container, Content, Background } from './styles';
 import Input from '../../components/Input/index';
 import Button from '../../components/Button/index';
 
-import { useAuth } from '../../context/AuthContext';
+import { useAuth } from '../../hooks/AuthContext';
 import getValidationErrors from '../../utils/getValidationErrors';
 
 import LogoImg from '../../assets/logo.svg';
