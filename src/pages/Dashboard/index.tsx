@@ -6,6 +6,7 @@ import 'react-day-picker/lib/style.css';
 
 import { FiPower, FiClock } from 'react-icons/fi';
 import { parseISO } from 'date-fns/esm';
+import { Link } from 'react-router-dom';
 import {
   Container,
   Header,
@@ -140,7 +141,9 @@ const Dashboard: React.FC = () => {
             <img src={user.avatar_url} alt={user.name} />
             <div>
               <span>Bem-vindo,</span>
-              <strong>{user.name}</strong>
+              <Link to="profile">
+                <strong>{user.name}</strong>
+              </Link>
             </div>
           </Profile>
 
