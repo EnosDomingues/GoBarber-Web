@@ -75,9 +75,9 @@ const Dashboard: React.FC = () => {
     api
       .get('/appointments/me', {
         params: {
-          year: currentMonth.getFullYear(),
-          month: currentMonth.getMonth() + 1,
-          day: currentMonth.getDate(),
+          year: selectedDate.getFullYear(),
+          month: selectedDate.getMonth() + 1,
+          day: selectedDate.getDate(),
         },
       })
       .then((response) => {
