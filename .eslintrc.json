@@ -26,6 +26,7 @@
   ],
   "rules": {
     "prettier/prettier": "error",
+    "import/no-duplicates": "off",
     "react/jsx-props-no-spreading": "off",
     "import/no-unresolved": "off",
     "@typescript-eslint/ban-types": "off",
