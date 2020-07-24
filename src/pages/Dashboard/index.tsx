@@ -199,7 +199,6 @@ const Dashboard: React.FC = () => {
                     src={appointment.user.avatar_url}
                     alt={appointment.user.name}
                   />
-                  {console.log(appointment.user)}
                   <strong>{appointment.user.name}</strong>
                 </div>
               </Appointment>
